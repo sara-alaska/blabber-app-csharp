@@ -1,11 +1,5 @@
 # ReST cURL requests
 
-##########################################################################################
-
-***Note: --no-check-cercificate didn't work on the server so I used --insecure***
-
-##########################################################################################
-
 ###### get all blabs sorted by date (feed)
 
 curl --location --insecure --request GET https://localhost:44377/blabs/
